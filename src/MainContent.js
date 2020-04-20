@@ -34,7 +34,7 @@ class MainContent extends React.Component {
 	render() {
 		return (
 			<div>
-				<h1>Simulate log in/out</h1>
+				<h1>Simulate log in/out -> </h1>
 				<button onClick={this.handleClick}>{this.state.loggedIn ? "Log Out" : "Log In"}</button>
 				<h2>You have {this.state.loggedIn ? "Logged In" : "Logged Out"} </h2>
 			</div>
